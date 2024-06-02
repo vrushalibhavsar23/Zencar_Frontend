@@ -1,0 +1,41 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .filter-section, .data-section {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    margin-left: 10px;
+  }
+  
+  .data-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .inventory-section, .sales-section {
+    width: 45%;
+  }
+  
+  .inventory-section ul, .sales-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .inventory-section li, .sales-section li {
+    background-color: #f1f1f1;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  form {
+    margin-top: 10px;
+  }
+  
